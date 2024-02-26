@@ -1,3 +1,7 @@
+
+let password;
+
+
 document.getElementById('login-form').addEventListener('submit', function(event) {
   event.preventDefault(); // Empêcher le formulaire d'être soumis normalement
 
@@ -46,4 +50,3 @@ document.getElementById('login-form').addEventListener('submit', function(event)
       document.getElementById('error-message').innerText = error.message;
   });
 });
-
